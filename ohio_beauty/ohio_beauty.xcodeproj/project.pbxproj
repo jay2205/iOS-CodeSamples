@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B9EDDE71A3272FA00C06F29 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9EDDE61A3272FA00C06F29 /* WebViewController.m */; };
+		7BB990F61A2FF44000A14712 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB990F51A2FF44000A14712 /* main.m */; };
+		7BB990F91A2FF44000A14712 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB990F81A2FF44000A14712 /* AppDelegate.m */; };
+		7BB990FC1A2FF44000A14712 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB990FB1A2FF44000A14712 /* MasterViewController.m */; };
+		7BB990FF1A2FF44000A14712 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB990FE1A2FF44000A14712 /* DetailViewController.m */; };
+		7BB991021A2FF44000A14712 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BB991001A2FF44000A14712 /* Main.storyboard */; };
+		7BB991041A2FF44000A14712 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BB991031A2FF44000A14712 /* Images.xcassets */; };
+		7BB991071A2FF44000A14712 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BB991051A2FF44000A14712 /* LaunchScreen.xib */; };
+		7BB991131A2FF44000A14712 /* ohio_beautyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB991121A2FF44000A14712 /* ohio_beautyTests.m */; };
+		7BB9911E1A2FF54400A14712 /* PlaceDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9911D1A2FF54400A14712 /* PlaceDetails.m */; };
+		7BB991211A2FF77400A14712 /* CityDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB991201A2FF77400A14712 /* CityDetails.m */; };
+		7BB991241A30099000A14712 /* PlaceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB991231A30099000A14712 /* PlaceDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BB9910D1A2FF44000A14712 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BB990E81A2FF43F00A14712 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BB990EF1A2FF44000A14712;
+			remoteInfo = ohio_beauty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B9EDDE51A3272FA00C06F29 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebViewController.h; path = ../WebViewController.h; sourceTree = "<group>"; };
+		7B9EDDE61A3272FA00C06F29 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebViewController.m; path = ../WebViewController.m; sourceTree = "<group>"; };
+		7BB990F01A2FF44000A14712 /* ohio_beauty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ohio_beauty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB990F41A2FF44000A14712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BB990F51A2FF44000A14712 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7BB990F71A2FF44000A14712 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7BB990F81A2FF44000A14712 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7BB990FA1A2FF44000A14712 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		7BB990FB1A2FF44000A14712 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		7BB990FD1A2FF44000A14712 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		7BB990FE1A2FF44000A14712 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		7BB991011A2FF44000A14712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BB991031A2FF44000A14712 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7BB991061A2FF44000A14712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7BB9910C1A2FF44000A14712 /* ohio_beautyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ohio_beautyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB991111A2FF44000A14712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BB991121A2FF44000A14712 /* ohio_beautyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ohio_beautyTests.m; sourceTree = "<group>"; };
+		7BB9911C1A2FF54400A14712 /* PlaceDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceDetails.h; sourceTree = "<group>"; };
+		7BB9911D1A2FF54400A14712 /* PlaceDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceDetails.m; sourceTree = "<group>"; };
+		7BB9911F1A2FF77400A14712 /* CityDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityDetails.h; sourceTree = "<group>"; };
+		7BB991201A2FF77400A14712 /* CityDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityDetails.m; sourceTree = "<group>"; };
+		7BB991221A30099000A14712 /* PlaceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaceDetailViewController.h; path = ../PlaceDetailViewController.h; sourceTree = "<group>"; };
+		7BB991231A30099000A14712 /* PlaceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlaceDetailViewController.m; path = ../PlaceDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BB990ED1A2FF44000A14712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB991091A2FF44000A14712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BB990E71A2FF43F00A14712 = {
+			isa = PBXGroup;
+			children = (
+				7BB9911F1A2FF77400A14712 /* CityDetails.h */,
+				7BB991201A2FF77400A14712 /* CityDetails.m */,
+				7BB9911C1A2FF54400A14712 /* PlaceDetails.h */,
+				7BB9911D1A2FF54400A14712 /* PlaceDetails.m */,
+				7BB990F21A2FF44000A14712 /* ohio_beauty */,
+				7BB9910F1A2FF44000A14712 /* ohio_beautyTests */,
+				7BB990F11A2FF44000A14712 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BB990F11A2FF44000A14712 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BB990F01A2FF44000A14712 /* ohio_beauty.app */,
+				7BB9910C1A2FF44000A14712 /* ohio_beautyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BB990F21A2FF44000A14712 /* ohio_beauty */ = {
+			isa = PBXGroup;
+			children = (
+				7B9EDDE51A3272FA00C06F29 /* WebViewController.h */,
+				7B9EDDE61A3272FA00C06F29 /* WebViewController.m */,
+				7BB991221A30099000A14712 /* PlaceDetailViewController.h */,
+				7BB991231A30099000A14712 /* PlaceDetailViewController.m */,
+				7BB990F71A2FF44000A14712 /* AppDelegate.h */,
+				7BB990F81A2FF44000A14712 /* AppDelegate.m */,
+				7BB990FA1A2FF44000A14712 /* MasterViewController.h */,
+				7BB990FB1A2FF44000A14712 /* MasterViewController.m */,
+				7BB990FD1A2FF44000A14712 /* DetailViewController.h */,
+				7BB990FE1A2FF44000A14712 /* DetailViewController.m */,
+				7BB991001A2FF44000A14712 /* Main.storyboard */,
+				7BB991031A2FF44000A14712 /* Images.xcassets */,
+				7BB991051A2FF44000A14712 /* LaunchScreen.xib */,
+				7BB990F31A2FF44000A14712 /* Supporting Files */,
+			);
+			path = ohio_beauty;
+			sourceTree = "<group>";
+		};
+		7BB990F31A2FF44000A14712 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BB990F41A2FF44000A14712 /* Info.plist */,
+				7BB990F51A2FF44000A14712 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BB9910F1A2FF44000A14712 /* ohio_beautyTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BB991121A2FF44000A14712 /* ohio_beautyTests.m */,
+				7BB991101A2FF44000A14712 /* Supporting Files */,
+			);
+			path = ohio_beautyTests;
+			sourceTree = "<group>";
+		};
+		7BB991101A2FF44000A14712 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BB991111A2FF44000A14712 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BB990EF1A2FF44000A14712 /* ohio_beauty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB991161A2FF44000A14712 /* Build configuration list for PBXNativeTarget "ohio_beauty" */;
+			buildPhases = (
+				7BB990EC1A2FF44000A14712 /* Sources */,
+				7BB990ED1A2FF44000A14712 /* Frameworks */,
+				7BB990EE1A2FF44000A14712 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ohio_beauty;
+			productName = ohio_beauty;
+			productReference = 7BB990F01A2FF44000A14712 /* ohio_beauty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BB9910B1A2FF44000A14712 /* ohio_beautyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB991191A2FF44000A14712 /* Build configuration list for PBXNativeTarget "ohio_beautyTests" */;
+			buildPhases = (
+				7BB991081A2FF44000A14712 /* Sources */,
+				7BB991091A2FF44000A14712 /* Frameworks */,
+				7BB9910A1A2FF44000A14712 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BB9910E1A2FF44000A14712 /* PBXTargetDependency */,
+			);
+			name = ohio_beautyTests;
+			productName = ohio_beautyTests;
+			productReference = 7BB9910C1A2FF44000A14712 /* ohio_beautyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BB990E81A2FF43F00A14712 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Jayanth;
+				TargetAttributes = {
+					7BB990EF1A2FF44000A14712 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					7BB9910B1A2FF44000A14712 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 7BB990EF1A2FF44000A14712;
+					};
+				};
+			};
+			buildConfigurationList = 7BB990EB1A2FF43F00A14712 /* Build configuration list for PBXProject "ohio_beauty" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BB990E71A2FF43F00A14712;
+			productRefGroup = 7BB990F11A2FF44000A14712 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BB990EF1A2FF44000A14712 /* ohio_beauty */,
+				7BB9910B1A2FF44000A14712 /* ohio_beautyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BB990EE1A2FF44000A14712 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB991021A2FF44000A14712 /* Main.storyboard in Resources */,
+				7BB991071A2FF44000A14712 /* LaunchScreen.xib in Resources */,
+				7BB991041A2FF44000A14712 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB9910A1A2FF44000A14712 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BB990EC1A2FF44000A14712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB990F91A2FF44000A14712 /* AppDelegate.m in Sources */,
+				7BB991241A30099000A14712 /* PlaceDetailViewController.m in Sources */,
+				7BB990FC1A2FF44000A14712 /* MasterViewController.m in Sources */,
+				7B9EDDE71A3272FA00C06F29 /* WebViewController.m in Sources */,
+				7BB9911E1A2FF54400A14712 /* PlaceDetails.m in Sources */,
+				7BB990F61A2FF44000A14712 /* main.m in Sources */,
+				7BB990FF1A2FF44000A14712 /* DetailViewController.m in Sources */,
+				7BB991211A2FF77400A14712 /* CityDetails.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB991081A2FF44000A14712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB991131A2FF44000A14712 /* ohio_beautyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BB9910E1A2FF44000A14712 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BB990EF1A2FF44000A14712 /* ohio_beauty */;
+			targetProxy = 7BB9910D1A2FF44000A14712 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BB991001A2FF44000A14712 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BB991011A2FF44000A14712 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BB991051A2FF44000A14712 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BB991061A2FF44000A14712 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BB991141A2FF44000A14712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7BB991151A2FF44000A14712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BB991171A2FF44000A14712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ohio_beauty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7BB991181A2FF44000A14712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ohio_beauty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7BB9911A1A2FF44000A14712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ohio_beautyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ohio_beauty.app/ohio_beauty";
+			};
+			name = Debug;
+		};
+		7BB9911B1A2FF44000A14712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ohio_beautyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ohio_beauty.app/ohio_beauty";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BB990EB1A2FF43F00A14712 /* Build configuration list for PBXProject "ohio_beauty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB991141A2FF44000A14712 /* Debug */,
+				7BB991151A2FF44000A14712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BB991161A2FF44000A14712 /* Build configuration list for PBXNativeTarget "ohio_beauty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB991171A2FF44000A14712 /* Debug */,
+				7BB991181A2FF44000A14712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BB991191A2FF44000A14712 /* Build configuration list for PBXNativeTarget "ohio_beautyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB9911A1A2FF44000A14712 /* Debug */,
+				7BB9911B1A2FF44000A14712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BB990E81A2FF43F00A14712 /* Project object */;
+}

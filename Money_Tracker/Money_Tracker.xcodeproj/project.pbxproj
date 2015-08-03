@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BB166C31AEC3BC5001B881A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB166C21AEC3BC5001B881A /* main.m */; };
+		7BB166C61AEC3BC5001B881A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB166C51AEC3BC5001B881A /* AppDelegate.m */; };
+		7BB166CF1AEC3BC5001B881A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BB166CD1AEC3BC5001B881A /* Main.storyboard */; };
+		7BB166D11AEC3BC5001B881A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BB166D01AEC3BC5001B881A /* Images.xcassets */; };
+		7BB166D41AEC3BC5001B881A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BB166D21AEC3BC5001B881A /* LaunchScreen.xib */; };
+		7BB166E01AEC3BC5001B881A /* Money_TrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB166DF1AEC3BC5001B881A /* Money_TrackerTests.m */; };
+		7BB166EB1AEC4606001B881A /* UserTableViewTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB166EA1AEC4606001B881A /* UserTableViewTableViewController.m */; };
+		7BB166EE1AEC4624001B881A /* StoreTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB166ED1AEC4624001B881A /* StoreTableView.m */; };
+		7BB166F31AECB021001B881A /* myPList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7BB166F21AECB021001B881A /* myPList.plist */; };
+		7BB166F61AECB8F5001B881A /* UserEntryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB166F51AECB8F5001B881A /* UserEntryVC.m */; };
+		7BB166F91AECB91B001B881A /* StoreEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB166F81AECB91B001B881A /* StoreEntryViewController.m */; };
+		7BD7D3641AF29405002DCF0C /* store.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7BD7D3631AF29405002DCF0C /* store.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BB166DA1AEC3BC5001B881A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BB166B51AEC3BC5001B881A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BB166BC1AEC3BC5001B881A;
+			remoteInfo = Money_Tracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7BB166BD1AEC3BC5001B881A /* Money_Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Money_Tracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB166C11AEC3BC5001B881A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BB166C21AEC3BC5001B881A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7BB166C41AEC3BC5001B881A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7BB166C51AEC3BC5001B881A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7BB166CE1AEC3BC5001B881A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BB166D01AEC3BC5001B881A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7BB166D31AEC3BC5001B881A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7BB166D91AEC3BC5001B881A /* Money_TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Money_TrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB166DE1AEC3BC5001B881A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BB166DF1AEC3BC5001B881A /* Money_TrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Money_TrackerTests.m; sourceTree = "<group>"; };
+		7BB166E91AEC4606001B881A /* UserTableViewTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserTableViewTableViewController.h; path = ../UserTableViewTableViewController.h; sourceTree = "<group>"; };
+		7BB166EA1AEC4606001B881A /* UserTableViewTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserTableViewTableViewController.m; path = ../UserTableViewTableViewController.m; sourceTree = "<group>"; };
+		7BB166EC1AEC4624001B881A /* StoreTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StoreTableView.h; path = ../StoreTableView.h; sourceTree = "<group>"; };
+		7BB166ED1AEC4624001B881A /* StoreTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StoreTableView.m; path = ../StoreTableView.m; sourceTree = "<group>"; };
+		7BB166F21AECB021001B881A /* myPList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = myPList.plist; path = ../myPList.plist; sourceTree = "<group>"; };
+		7BB166F41AECB8F5001B881A /* UserEntryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserEntryVC.h; sourceTree = "<group>"; };
+		7BB166F51AECB8F5001B881A /* UserEntryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserEntryVC.m; sourceTree = "<group>"; };
+		7BB166F71AECB91B001B881A /* StoreEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreEntryViewController.h; sourceTree = "<group>"; };
+		7BB166F81AECB91B001B881A /* StoreEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreEntryViewController.m; sourceTree = "<group>"; };
+		7BD7D3631AF29405002DCF0C /* store.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = store.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BB166BA1AEC3BC5001B881A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB166D61AEC3BC5001B881A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BB166B41AEC3BC5001B881A = {
+			isa = PBXGroup;
+			children = (
+				7BB166BF1AEC3BC5001B881A /* Money_Tracker */,
+				7BB166DC1AEC3BC5001B881A /* Money_TrackerTests */,
+				7BB166BE1AEC3BC5001B881A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BB166BE1AEC3BC5001B881A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BB166BD1AEC3BC5001B881A /* Money_Tracker.app */,
+				7BB166D91AEC3BC5001B881A /* Money_TrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BB166BF1AEC3BC5001B881A /* Money_Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				7BB166F21AECB021001B881A /* myPList.plist */,
+				7BB166E91AEC4606001B881A /* UserTableViewTableViewController.h */,
+				7BB166EA1AEC4606001B881A /* UserTableViewTableViewController.m */,
+				7BD7D3631AF29405002DCF0C /* store.plist */,
+				7BB166EC1AEC4624001B881A /* StoreTableView.h */,
+				7BB166ED1AEC4624001B881A /* StoreTableView.m */,
+				7BB166C41AEC3BC5001B881A /* AppDelegate.h */,
+				7BB166C51AEC3BC5001B881A /* AppDelegate.m */,
+				7BB166CD1AEC3BC5001B881A /* Main.storyboard */,
+				7BB166F41AECB8F5001B881A /* UserEntryVC.h */,
+				7BB166F51AECB8F5001B881A /* UserEntryVC.m */,
+				7BB166F71AECB91B001B881A /* StoreEntryViewController.h */,
+				7BB166F81AECB91B001B881A /* StoreEntryViewController.m */,
+				7BB166D01AEC3BC5001B881A /* Images.xcassets */,
+				7BB166D21AEC3BC5001B881A /* LaunchScreen.xib */,
+				7BB166C01AEC3BC5001B881A /* Supporting Files */,
+			);
+			path = Money_Tracker;
+			sourceTree = "<group>";
+		};
+		7BB166C01AEC3BC5001B881A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BB166C11AEC3BC5001B881A /* Info.plist */,
+				7BB166C21AEC3BC5001B881A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BB166DC1AEC3BC5001B881A /* Money_TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BB166DF1AEC3BC5001B881A /* Money_TrackerTests.m */,
+				7BB166DD1AEC3BC5001B881A /* Supporting Files */,
+			);
+			path = Money_TrackerTests;
+			sourceTree = "<group>";
+		};
+		7BB166DD1AEC3BC5001B881A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BB166DE1AEC3BC5001B881A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BB166BC1AEC3BC5001B881A /* Money_Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB166E31AEC3BC5001B881A /* Build configuration list for PBXNativeTarget "Money_Tracker" */;
+			buildPhases = (
+				7BB166B91AEC3BC5001B881A /* Sources */,
+				7BB166BA1AEC3BC5001B881A /* Frameworks */,
+				7BB166BB1AEC3BC5001B881A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Money_Tracker;
+			productName = Money_Tracker;
+			productReference = 7BB166BD1AEC3BC5001B881A /* Money_Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BB166D81AEC3BC5001B881A /* Money_TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB166E61AEC3BC5001B881A /* Build configuration list for PBXNativeTarget "Money_TrackerTests" */;
+			buildPhases = (
+				7BB166D51AEC3BC5001B881A /* Sources */,
+				7BB166D61AEC3BC5001B881A /* Frameworks */,
+				7BB166D71AEC3BC5001B881A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BB166DB1AEC3BC5001B881A /* PBXTargetDependency */,
+			);
+			name = Money_TrackerTests;
+			productName = Money_TrackerTests;
+			productReference = 7BB166D91AEC3BC5001B881A /* Money_TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BB166B51AEC3BC5001B881A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = KM;
+				TargetAttributes = {
+					7BB166BC1AEC3BC5001B881A = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					7BB166D81AEC3BC5001B881A = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 7BB166BC1AEC3BC5001B881A;
+					};
+				};
+			};
+			buildConfigurationList = 7BB166B81AEC3BC5001B881A /* Build configuration list for PBXProject "Money_Tracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BB166B41AEC3BC5001B881A;
+			productRefGroup = 7BB166BE1AEC3BC5001B881A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BB166BC1AEC3BC5001B881A /* Money_Tracker */,
+				7BB166D81AEC3BC5001B881A /* Money_TrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BB166BB1AEC3BC5001B881A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB166CF1AEC3BC5001B881A /* Main.storyboard in Resources */,
+				7BB166F31AECB021001B881A /* myPList.plist in Resources */,
+				7BB166D41AEC3BC5001B881A /* LaunchScreen.xib in Resources */,
+				7BB166D11AEC3BC5001B881A /* Images.xcassets in Resources */,
+				7BD7D3641AF29405002DCF0C /* store.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB166D71AEC3BC5001B881A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BB166B91AEC3BC5001B881A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB166EB1AEC4606001B881A /* UserTableViewTableViewController.m in Sources */,
+				7BB166F91AECB91B001B881A /* StoreEntryViewController.m in Sources */,
+				7BB166C61AEC3BC5001B881A /* AppDelegate.m in Sources */,
+				7BB166F61AECB8F5001B881A /* UserEntryVC.m in Sources */,
+				7BB166C31AEC3BC5001B881A /* main.m in Sources */,
+				7BB166EE1AEC4624001B881A /* StoreTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB166D51AEC3BC5001B881A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB166E01AEC3BC5001B881A /* Money_TrackerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BB166DB1AEC3BC5001B881A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BB166BC1AEC3BC5001B881A /* Money_Tracker */;
+			targetProxy = 7BB166DA1AEC3BC5001B881A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BB166CD1AEC3BC5001B881A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BB166CE1AEC3BC5001B881A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BB166D21AEC3BC5001B881A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BB166D31AEC3BC5001B881A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BB166E11AEC3BC5001B881A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7BB166E21AEC3BC5001B881A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BB166E41AEC3BC5001B881A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Money_Tracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7BB166E51AEC3BC5001B881A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Money_Tracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7BB166E71AEC3BC5001B881A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Money_TrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Money_Tracker.app/Money_Tracker";
+			};
+			name = Debug;
+		};
+		7BB166E81AEC3BC5001B881A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Money_TrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Money_Tracker.app/Money_Tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BB166B81AEC3BC5001B881A /* Build configuration list for PBXProject "Money_Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB166E11AEC3BC5001B881A /* Debug */,
+				7BB166E21AEC3BC5001B881A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BB166E31AEC3BC5001B881A /* Build configuration list for PBXNativeTarget "Money_Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB166E41AEC3BC5001B881A /* Debug */,
+				7BB166E51AEC3BC5001B881A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BB166E61AEC3BC5001B881A /* Build configuration list for PBXNativeTarget "Money_TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB166E71AEC3BC5001B881A /* Debug */,
+				7BB166E81AEC3BC5001B881A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BB166B51AEC3BC5001B881A /* Project object */;
+}
