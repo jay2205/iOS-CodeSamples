@@ -24,7 +24,7 @@ My code samples of iOS projects.
 
 4.Cards
 
-   A sample app demonstrating the MVC framework in objective C.
+	A sample app demonstrating the MVC framework in objective C.
 
 5.Weather
     
