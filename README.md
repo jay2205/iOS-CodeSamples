@@ -22,11 +22,11 @@ My code samples of iOS projects.
 	A simple app, which allows us to not all the expenses and keep you track of your money.
 	This app is currently in progress to show graphical stats. 
 
-4. Cards
+4.Cards
 
    A sample app demonstrating the MVC framework in objective C.
 
-5. Weather
+5.Weather
     
     This is a simple weather application helps the user to check the weather at the current location. User also
     can add any city to view the weather on this application.
