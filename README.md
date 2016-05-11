@@ -2,7 +2,8 @@
 my sample codes for iOS
 My code samples of iOS projects.
 
-1. Sample Survey
+#1.Sample Survey
+>>>>>>> origin/master
 
     - A Sample Survey app including the profile of the who is conducting survey.
     - Survey is based on the Location
@@ -13,24 +14,26 @@ My code samples of iOS projects.
    	- Nice slider interactions.
     - Review of the attempted Survey is shown in the table view and can edit response.
 
-2. Ohio beauty
+#2.Ohio beauty
+>>>>>>> origin/master
 
 	- My first project in iOS. A simple app, which demonstrates the tourist, places in Ohio.
   - Implemented Table Views
   - Implemented Web view
 
-3. Money Tracker
+#3.Money Tracker
+>>>>>>> origin/master
 
 	- A simple app, which allows us to not all the expenses and keep you track of your money.
 	This app is currently in progress to show graphical stats.
   - Implemented Table View
   - Implemented Tab view
 
-4. Cards
+#4.Cards
 
   - A simple app demonstrating the MVC framework in objective C.
 
-5. Weather
+#5.Weather
 
   - This is a simple weather application helps the user to check the weather at the current location. User also
     can add any city to view the weather on this application.
@@ -40,7 +43,7 @@ My code samples of iOS projects.
   - Customized YQL query end point to obtain JSON data for the city added by the user.
   - The data will be updated in the background without creating any lag on the UI.
 
-6. Baby Quiz
+#6.Baby Quiz
 
   -  A simple quiz app making baby learn things.
   - Implemented Autolayouts.
