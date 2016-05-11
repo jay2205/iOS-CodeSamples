@@ -3,7 +3,6 @@ my sample codes for iOS
 My code samples of iOS projects.
 
 #1.Sample Survey
->>>>>>> origin/master
 
     - A Sample Survey app including the profile of the who is conducting survey.
     - Survey is based on the Location
@@ -15,14 +14,12 @@ My code samples of iOS projects.
     - Review of the attempted Survey is shown in the table view and can edit response.
 
 #2.Ohio beauty
->>>>>>> origin/master
 
 	- My first project in iOS. A simple app, which demonstrates the tourist, places in Ohio.
   - Implemented Table Views
   - Implemented Web view
 
 #3.Money Tracker
->>>>>>> origin/master
 
 	- A simple app, which allows us to not all the expenses and keep you track of your money.
 	This app is currently in progress to show graphical stats.
