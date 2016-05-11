@@ -5,7 +5,7 @@ My code samples of iOS projects.
 #1.Sample Survey
 
     - A Sample Survey app including the profile of the who is conducting survey.
-    - Survey is based on the Location
+    - Survey is based on the Location.
     - Model Presentation of the views.
     - Customized Page view.
     - Navigation Between pages only buttons.
